@@ -1,0 +1,12 @@
+{
+    "description": "Perform chrome upgrade",
+    "private": true,
+    "input_method": "powershell",
+    "parameters": {
+      "version": {
+        "description": "Please input in Chrome version number",
+        "type": "Enum['70.0.3538.77', '80.0.3987.149', '90.0.4430.72']"
+      }
+    }
+  }
+  
