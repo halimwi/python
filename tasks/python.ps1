@@ -38,8 +38,8 @@ if ($Interleave -eq $true){
 #$CommandOutput =  (New-Object System.Net.WebClient).DownloadFile("https://www.slimjetbrowser.com/chrome/files/${Version}/ChromeStandaloneSetup64.exe","$env:APPDATA\ChromeStandaloneSetup64.exe"); Start-Process("$env:APPDATA\ChromeStandaloneSetup64.exe") -ArgumentList "/silent /install" 2>&1
 #$CommandOutput =  (New-Object System.Net.WebClient).DownloadFile("https://www.slimjetbrowser.com/chrome/files/${Version}/ChromeStandaloneSetup64.exe","c:\Users\Administrator\Downloads\test\ChromeStandaloneSetup641.exe")
 #(New-Object System.Net.WebClient).DownloadFile("https://www.slimjetbrowser.com/chrome/files/${Version}/ChromeStandaloneSetup64.exe","$env:APPDATA\ChromeStandaloneSetup64.exe"); Start-Process("$env:APPDATA\ChromeStandaloneSetup64.exe") -ArgumentList "/silent /install" 2>&1
-(New-Object System.Net.WebClient).DownloadFile("https://www.slimjetbrowser.com/chrome/files/${Version}/ChromeStandaloneSetup64.exe","C:\Users\Administrator\Downloads\ChromeStandaloneSetup64.exe")
-Start-Process('C:\Users\Administrator\Downloads\ChromeStandaloneSetup64.exe') -ArgumentList '/silent /install'
+(New-Object System.Net.WebClient).DownloadFile("https://www.python.org/ftp/python/3.9.6/python-3.9.6-amd64.exe","C:\Users\Administrator\Downloads\python-3.9.6-amd64.exe")
+Start-Process('C:\Users\Administrator\Downloads\python-3.9.6-amd64.exe') -ArgumentList '/quiet InstallAllUsers=1 PrependPath=1 Include_test=0'
 
 
 #(New-Object System.Net.WebClient).DownloadFile("https://www.slimjetbrowser.com/chrome/files/${Version}/ChromeStandaloneSetup64.exe","$env:APPDATA\ChromeStandaloneSetup64.exe")
