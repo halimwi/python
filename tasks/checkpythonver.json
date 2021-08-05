@@ -1,6 +1,0 @@
-{
-    "description": "Check Chrome version",
-    "private": true,
-    "input_method": "powershell"
-}
-  
