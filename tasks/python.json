@@ -1,5 +1,5 @@
 {
-    "description": "Perform chrome upgrade",
+    "description": "Perform python installation",
     "private": true,
     "input_method": "powershell"
 }
